@@ -2,7 +2,6 @@ var url = sessionStorage.getItem("pokURL");
 $(document).ready(function () {
   getData(url);
   var body = document.getElementById("body");
-  body.setAttribute("class", "background-image: url('/images/background01.png');")
 });
 
 function getData(url) {
