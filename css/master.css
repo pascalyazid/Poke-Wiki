@@ -1,0 +1,30 @@
+#pokemons {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.5cm;
+    border-collapse: collapse;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#pokemons th, #pokemons td {
+    border: 1px solid #ddd;
+    padding: auto;
+    width: 90vw;
+    height: 100px;
+}
+
+#pokemons th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: cornflowerblue;
+    color: white;
+}
+
+#h6 {
+  font-size: 1cm;
+}
+body {
+  background-image: url('/images/background01.png')
+}
